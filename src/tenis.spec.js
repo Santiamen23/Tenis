@@ -6,4 +6,9 @@ describe("Aumentar puntos", () => {
     let tenis= new Tenis();
     expect(tenis.obtenerScore()).toEqual("Love-Love"); 
   });
+  it("Deberia mostrar 15-Love si el Jugador 1 anota un punto y Jugador 2 0", () => {
+    let tenis= new Tenis();
+    tenis.j1Anota();
+    expect(tenis.obtenerScore()).toEqual("15-Love"); 
+  });
 });
