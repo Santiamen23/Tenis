@@ -110,4 +110,16 @@ describe("Aumentar puntos", () => {
     tenis.j2Anota();
     expect(tenis.obtenerScore()).toEqual("Advantage for player 2");
   });
+  it("Deberia mostrar Game for player 2 cuando anota cinco puntos y el jugador 1 tres", () => {
+    let tenis= new Tenis();
+    tenis.j1Anota();
+    tenis.j1Anota();
+    tenis.j1Anota();
+    tenis.j2Anota();
+    tenis.j2Anota();
+    tenis.j2Anota();
+    tenis.j2Anota();
+    tenis.j2Anota();
+    expect(tenis.obtenerScore()).toEqual("Game for player 2");
+  });
 });

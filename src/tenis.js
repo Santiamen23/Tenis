@@ -10,53 +10,29 @@ class Tenis{
     this.j2+=1;
   }
   obtenerScore(){
-    if(this.j1==0 && this.j2==1){
-      return "Love-15"
-    }
-    if(this.j1==0 && this.j2==2){
-      return "Love-30"
-    }
-    if(this.j1==0 && this.j2==3){
-      return "Love-40"
-    }
-    if(this.j1==0 && this.j2==4){
+    if(this.j1>=3 && this.j2>=3){
+      if(this.j1==this.j2){
+        return "Deuce"
+      }
+      if(this.j1==this.j2+1){
+        return "Advantage for player 1"
+      }
+      if(this.j2==this.j1+1){
+        return "Advantage for player 2"
+      }
+      if(this.j1>this.j2){
+        return "Game for player 1"
+      }
       return "Game for player 2"
     }
-    if(this.j1==3 && this.j2==3){
-      return "Deuce"
-    }
-    if(this.j1==4 && this.j2==4){
-      return "Deuce"
-    }
-    if(this.j1==4 && this.j2==3){
-      return "Advantage for player 1"
-    }
-    if(this.j1==5 && this.j2==3){
+    const scores=["Love", "15", "30", "40"];
+    if(this.j1>=4){
       return "Game for player 1"
     }
-    if(this.j1==3 && this.j2==4){
-      return "Advantage for player 2"
+    if(this.j2>=4){
+      return "Game for player 2"
     }
-    let ansJ1="";
-    if(this.j1==0){
-      ansJ1="Love"
-    }
-    else if(this.j1==1){
-      ansJ1="15"
-    }
-    else if(this.j1==2){
-      ansJ1="30"
-    }
-    else if(this.j1==3){
-      ansJ1="40"
-    }
-    else if(this.j1==4){
-      return "Game for player 1"
-    }
-    else{
-      ansJ1="30"
-    }
-    return ansJ1+"-Love";
+    return scores[this.j1]+"-"+scores[this.j2];
   }
 }
 
