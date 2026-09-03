@@ -13,6 +13,12 @@ class Tenis{
     else if(this.j1==1){
       ansJ1="15"
     }
+    else if(this.j1==2){
+      ansJ1="30"
+    }
+    else if(this.j1==3){
+      ansJ1="40"
+    }
     else{
       ansJ1="30"
     }

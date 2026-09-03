@@ -140,9 +140,31 @@
     "testId": 2
   },
   {
-    "commitId": "HEAD",
+    "commitId": "80b07166896f729d0249f54359f55b3c9dcb07ab",
     "commitName": "feat: ciclo 3 - score 30-Love",
     "commitTimestamp": 1788409685340,
     "testId": 2
+  },
+  {
+    "numPassedTests": 4,
+    "failedTests": 1,
+    "numTotalTests": 5,
+    "timestamp": 1788409714443,
+    "success": false,
+    "testId": 3
+  },
+  {
+    "numPassedTests": 5,
+    "failedTests": 0,
+    "numTotalTests": 5,
+    "timestamp": 1788409732012,
+    "success": true,
+    "testId": 3
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: ciclo 4 - score 40-Love",
+    "commitTimestamp": 1788409744783,
+    "testId": 3
   }
 ]
