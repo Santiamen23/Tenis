@@ -247,17 +247,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "46f8a8ab42194ae5a15cc49b1c23ea90ac8b0e74",
     "author": "Santiamen23",
     "commit": {
       "date": "2026-09-03T12:59:16.000Z",
       "message": "feat(front): agregar marcador de tenis\n\nCo-authored-by: Cursor <cursoragent@cursor.com>",
-      "url": "https://github.com/Santiamen23/Tenis/commit/HEAD"
+      "url": "https://github.com/Santiamen23/Tenis/commit/46f8a8ab42194ae5a15cc49b1c23ea90ac8b0e74"
     },
     "stats": {
       "total": 46,
       "additions": 25,
       "deletions": 21,
+      "date": "2026-09-03"
+    },
+    "coverage": 100,
+    "test_count": 16,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Santiamen23",
+    "commit": {
+      "date": "2026-09-03T13:11:01.000Z",
+      "message": "feat(front): agregar reset del marcador\n\nCo-authored-by: Cursor <cursoragent@cursor.com>",
+      "url": "https://github.com/Santiamen23/Tenis/commit/HEAD"
+    },
+    "stats": {
+      "total": 9,
+      "additions": 8,
+      "deletions": 1,
       "date": "2026-09-03"
     },
     "coverage": 100,

@@ -418,9 +418,23 @@
     "testId": 15
   },
   {
-    "commitId": "HEAD",
+    "commitId": "46f8a8ab42194ae5a15cc49b1c23ea90ac8b0e74",
     "commitName": "feat(front): agregar marcador de tenis\n\nCo-authored-by: Cursor <cursoragent@cursor.com>",
     "commitTimestamp": 1788440358622,
     "testId": 15
+  },
+  {
+    "numPassedTests": 16,
+    "failedTests": 0,
+    "numTotalTests": 16,
+    "timestamp": 1788440831277,
+    "success": true,
+    "testId": 16
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(front): agregar reset del marcador\n\nCo-authored-by: Cursor <cursoragent@cursor.com>",
+    "commitTimestamp": 1788441062974,
+    "testId": 16
   }
 ]
