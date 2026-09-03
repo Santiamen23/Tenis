@@ -19,6 +19,9 @@ class Tenis{
     else if(this.j1==3){
       ansJ1="40"
     }
+    else if(this.j1==4){
+      return "Game for player 1"
+    }
     else{
       ansJ1="30"
     }
