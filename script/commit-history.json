@@ -228,17 +228,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "b2d1f0599bb753273404d619c2f6a6c06be09188",
     "author": "Santiamen23",
     "commit": {
       "date": "2026-09-03T04:48:20.000Z",
       "message": "feat: ciclo 15 - game for player 2 tras ventaja",
-      "url": "https://github.com/Santiamen23/Tenis/commit/HEAD"
+      "url": "https://github.com/Santiamen23/Tenis/commit/b2d1f0599bb753273404d619c2f6a6c06be09188"
     },
     "stats": {
       "total": 72,
       "additions": 30,
       "deletions": 42,
+      "date": "2026-09-03"
+    },
+    "coverage": 100,
+    "test_count": 16,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Santiamen23",
+    "commit": {
+      "date": "2026-09-03T12:59:16.000Z",
+      "message": "feat(front): agregar marcador de tenis\n\nCo-authored-by: Cursor <cursoragent@cursor.com>",
+      "url": "https://github.com/Santiamen23/Tenis/commit/HEAD"
+    },
+    "stats": {
+      "total": 46,
+      "additions": 25,
+      "deletions": 21,
       "date": "2026-09-03"
     },
     "coverage": 100,
