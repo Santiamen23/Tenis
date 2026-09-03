@@ -316,9 +316,31 @@
     "testId": 10
   },
   {
-    "commitId": "HEAD",
+    "commitId": "920587917ef0efaadb0e6e9e78a278859914a18e",
     "commitName": "feat: ciclo 11 - deuce extendido",
     "commitTimestamp": 1788410381034,
     "testId": 10
+  },
+  {
+    "numPassedTests": 12,
+    "failedTests": 1,
+    "numTotalTests": 13,
+    "timestamp": 1788410405802,
+    "success": false,
+    "testId": 11
+  },
+  {
+    "numPassedTests": 13,
+    "failedTests": 0,
+    "numTotalTests": 13,
+    "timestamp": 1788410420651,
+    "success": true,
+    "testId": 11
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: ciclo 12 - ventaja del jugador 1",
+    "commitTimestamp": 1788410495752,
+    "testId": 11
   }
 ]

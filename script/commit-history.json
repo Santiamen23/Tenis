@@ -152,12 +152,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "920587917ef0efaadb0e6e9e78a278859914a18e",
     "author": "Santiamen23",
     "commit": {
       "date": "2026-09-03T04:39:39.000Z",
       "message": "feat: ciclo 11 - deuce extendido",
-      "url": "https://github.com/Santiamen23/Tenis/commit/HEAD"
+      "url": "https://github.com/Santiamen23/Tenis/commit/920587917ef0efaadb0e6e9e78a278859914a18e"
     },
     "stats": {
       "total": 11,
@@ -167,6 +167,25 @@
     },
     "coverage": 96.67,
     "test_count": 12,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Santiamen23",
+    "commit": {
+      "date": "2026-09-03T04:41:34.000Z",
+      "message": "feat: ciclo 12 - ventaja del jugador 1",
+      "url": "https://github.com/Santiamen23/Tenis/commit/HEAD"
+    },
+    "stats": {
+      "total": 14,
+      "additions": 14,
+      "deletions": 0,
+      "date": "2026-09-03"
+    },
+    "coverage": 96.88,
+    "test_count": 13,
     "failed_tests": 0,
     "conclusion": "success"
   }

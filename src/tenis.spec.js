@@ -76,4 +76,15 @@ describe("Aumentar puntos", () => {
     }
     expect(tenis.obtenerScore()).toEqual("Deuce");
   });
+  it("Deberia mostrar Advantage for player 1 cuando anota cuatro puntos y el jugador 2 tres", () => {
+    let tenis= new Tenis();
+    tenis.j1Anota();
+    tenis.j1Anota();
+    tenis.j1Anota();
+    tenis.j1Anota();
+    tenis.j2Anota();
+    tenis.j2Anota();
+    tenis.j2Anota();
+    expect(tenis.obtenerScore()).toEqual("Advantage for player 1");
+  });
 });
