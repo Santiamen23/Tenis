@@ -184,9 +184,31 @@
     "testId": 4
   },
   {
-    "commitId": "HEAD",
+    "commitId": "442d9372d2973ffe523227be4b1c6a55f6db04bf",
     "commitName": "feat: ciclo 5 - game for player 1",
     "commitTimestamp": 1788409793949,
     "testId": 4
+  },
+  {
+    "numPassedTests": 6,
+    "failedTests": 1,
+    "numTotalTests": 7,
+    "timestamp": 1788409825831,
+    "success": false,
+    "testId": 5
+  },
+  {
+    "numPassedTests": 7,
+    "failedTests": 0,
+    "numTotalTests": 7,
+    "timestamp": 1788409852349,
+    "success": true,
+    "testId": 5
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: ciclo 6 - score Love-15",
+    "commitTimestamp": 1788409867262,
+    "testId": 5
   }
 ]

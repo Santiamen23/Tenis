@@ -32,4 +32,9 @@ describe("Aumentar puntos", () => {
     tenis.j1Anota();
     expect(tenis.obtenerScore()).toEqual("Game for player 1");
   });
+  it("Deberia mostrar Love-15 si el Jugador 2 anota un punto", () => {
+    let tenis= new Tenis();
+    tenis.j2Anota();
+    expect(tenis.obtenerScore()).toEqual("Love-15");
+  });
 });

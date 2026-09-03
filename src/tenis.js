@@ -1,11 +1,18 @@
 class Tenis{
   constructor() {
     this.j1 = 0;
+    this.j2 = 0;
   }
   j1Anota(){
     this.j1+=1;
   }
+  j2Anota(){
+    this.j2+=1;
+  }
   obtenerScore(){
+    if(this.j1==0 && this.j2==1){
+      return "Love-15"
+    }
     let ansJ1="";
     if(this.j1==0){
       ansJ1="Love"
