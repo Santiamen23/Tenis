@@ -76,12 +76,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "e9d3d79d9219d90bfc0b2dc03f34c44761a4547b",
     "author": "Santiamen23",
     "commit": {
       "date": "2026-09-03T04:31:54.000Z",
       "message": "feat: ciclo 7 - score Love-30",
-      "url": "https://github.com/Santiamen23/Tenis/commit/HEAD"
+      "url": "https://github.com/Santiamen23/Tenis/commit/e9d3d79d9219d90bfc0b2dc03f34c44761a4547b"
     },
     "stats": {
       "total": 9,
@@ -91,6 +91,25 @@
     },
     "coverage": 95.45,
     "test_count": 8,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Santiamen23",
+    "commit": {
+      "date": "2026-09-03T04:33:53.000Z",
+      "message": "feat: ciclo 8 - score Love-40",
+      "url": "https://github.com/Santiamen23/Tenis/commit/HEAD"
+    },
+    "stats": {
+      "total": 10,
+      "additions": 10,
+      "deletions": 0,
+      "date": "2026-09-03"
+    },
+    "coverage": 95.83,
+    "test_count": 9,
     "failed_tests": 0,
     "conclusion": "success"
   }

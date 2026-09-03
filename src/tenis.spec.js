@@ -43,4 +43,11 @@ describe("Aumentar puntos", () => {
     tenis.j2Anota();
     expect(tenis.obtenerScore()).toEqual("Love-30");
   });
+  it("Deberia mostrar Love-40 si el Jugador 2 anota tres puntos", () => {
+    let tenis= new Tenis();
+    tenis.j2Anota();
+    tenis.j2Anota();
+    tenis.j2Anota();
+    expect(tenis.obtenerScore()).toEqual("Love-40");
+  });
 });
