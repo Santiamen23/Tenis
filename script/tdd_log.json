@@ -294,9 +294,31 @@
     "testId": 9
   },
   {
-    "commitId": "HEAD",
+    "commitId": "8ad271b5a843ab377b5dc45b315b4e458d107e16",
     "commitName": "feat: ciclo 10 - deuce 3-3",
     "commitTimestamp": 1788410260216,
     "testId": 9
+  },
+  {
+    "numPassedTests": 11,
+    "failedTests": 1,
+    "numTotalTests": 12,
+    "timestamp": 1788410287630,
+    "success": false,
+    "testId": 10
+  },
+  {
+    "numPassedTests": 12,
+    "failedTests": 0,
+    "numTotalTests": 12,
+    "timestamp": 1788410305184,
+    "success": true,
+    "testId": 10
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: ciclo 11 - deuce extendido",
+    "commitTimestamp": 1788410381034,
+    "testId": 10
   }
 ]

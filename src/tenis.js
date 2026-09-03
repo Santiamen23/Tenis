@@ -25,6 +25,9 @@ class Tenis{
     if(this.j1==3 && this.j2==3){
       return "Deuce"
     }
+    if(this.j1==4 && this.j2==4){
+      return "Deuce"
+    }
     let ansJ1="";
     if(this.j1==0){
       ansJ1="Love"
