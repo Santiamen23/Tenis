@@ -62,7 +62,7 @@
     "testId": 1
   },
   {
-    "commitId": "HEAD",
+    "commitId": "938c7223b13965333a6e69101d0dd70215dbbab8",
     "commitName": "feat:Clase Tenis y primer ciclo de prueba",
     "commitTimestamp": 1788271803054,
     "testId": 1
@@ -121,6 +121,28 @@
     "numTotalTests": 3,
     "timestamp": 1788272371075,
     "success": true,
+    "testId": 2
+  },
+  {
+    "numPassedTests": 3,
+    "failedTests": 1,
+    "numTotalTests": 4,
+    "timestamp": 1788409638951,
+    "success": false,
+    "testId": 2
+  },
+  {
+    "numPassedTests": 4,
+    "failedTests": 0,
+    "numTotalTests": 4,
+    "timestamp": 1788409657388,
+    "success": true,
+    "testId": 2
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: ciclo 3 - score 30-Love",
+    "commitTimestamp": 1788409685340,
     "testId": 2
   }
 ]

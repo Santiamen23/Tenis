@@ -10,8 +10,11 @@ class Tenis{
     if(this.j1==0){
       ansJ1="Love"
     }
-    else{
+    else if(this.j1==1){
       ansJ1="15"
+    }
+    else{
+      ansJ1="30"
     }
     return ansJ1+"-Love";
   }
