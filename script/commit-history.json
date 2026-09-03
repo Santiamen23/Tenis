@@ -190,12 +190,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "cf20a99b5a80487fb5394adb7f8ad58c27d6d211",
     "author": "Santiamen23",
     "commit": {
       "date": "2026-09-03T04:43:30.000Z",
       "message": "feat: ciclo 13 - game for player 1 tras ventaja",
-      "url": "https://github.com/Santiamen23/Tenis/commit/HEAD"
+      "url": "https://github.com/Santiamen23/Tenis/commit/cf20a99b5a80487fb5394adb7f8ad58c27d6d211"
     },
     "stats": {
       "total": 15,
@@ -205,6 +205,25 @@
     },
     "coverage": 97.06,
     "test_count": 14,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Santiamen23",
+    "commit": {
+      "date": "2026-09-03T04:45:23.000Z",
+      "message": "feat: ciclo 14 - ventaja del jugador 2",
+      "url": "https://github.com/Santiamen23/Tenis/commit/HEAD"
+    },
+    "stats": {
+      "total": 14,
+      "additions": 14,
+      "deletions": 0,
+      "date": "2026-09-03"
+    },
+    "coverage": 97.22,
+    "test_count": 15,
     "failed_tests": 0,
     "conclusion": "success"
   }

@@ -360,9 +360,31 @@
     "testId": 12
   },
   {
-    "commitId": "HEAD",
+    "commitId": "cf20a99b5a80487fb5394adb7f8ad58c27d6d211",
     "commitName": "feat: ciclo 13 - game for player 1 tras ventaja",
     "commitTimestamp": 1788410611532,
     "testId": 12
+  },
+  {
+    "numPassedTests": 14,
+    "failedTests": 1,
+    "numTotalTests": 15,
+    "timestamp": 1788410635213,
+    "success": false,
+    "testId": 13
+  },
+  {
+    "numPassedTests": 15,
+    "failedTests": 0,
+    "numTotalTests": 15,
+    "timestamp": 1788410649466,
+    "success": true,
+    "testId": 13
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: ciclo 14 - ventaja del jugador 2",
+    "commitTimestamp": 1788410724617,
+    "testId": 13
   }
 ]
