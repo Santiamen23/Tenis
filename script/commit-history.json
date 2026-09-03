@@ -114,12 +114,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "62a3f83fbeaa7628244b0a77eb574a471d6c1676",
     "author": "Santiamen23",
     "commit": {
       "date": "2026-09-03T04:35:48.000Z",
       "message": "feat: ciclo 9 - game for player 2",
-      "url": "https://github.com/Santiamen23/Tenis/commit/HEAD"
+      "url": "https://github.com/Santiamen23/Tenis/commit/62a3f83fbeaa7628244b0a77eb574a471d6c1676"
     },
     "stats": {
       "total": 11,
@@ -129,6 +129,25 @@
     },
     "coverage": 96.15,
     "test_count": 10,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Santiamen23",
+    "commit": {
+      "date": "2026-09-03T04:37:38.000Z",
+      "message": "feat: ciclo 10 - deuce 3-3",
+      "url": "https://github.com/Santiamen23/Tenis/commit/HEAD"
+    },
+    "stats": {
+      "total": 13,
+      "additions": 13,
+      "deletions": 0,
+      "date": "2026-09-03"
+    },
+    "coverage": 96.43,
+    "test_count": 11,
     "failed_tests": 0,
     "conclusion": "success"
   }

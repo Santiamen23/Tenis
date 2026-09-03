@@ -272,9 +272,31 @@
     "testId": 8
   },
   {
-    "commitId": "HEAD",
+    "commitId": "62a3f83fbeaa7628244b0a77eb574a471d6c1676",
     "commitName": "feat: ciclo 9 - game for player 2",
     "commitTimestamp": 1788410149220,
     "testId": 8
+  },
+  {
+    "numPassedTests": 10,
+    "failedTests": 1,
+    "numTotalTests": 11,
+    "timestamp": 1788410170600,
+    "success": false,
+    "testId": 9
+  },
+  {
+    "numPassedTests": 11,
+    "failedTests": 0,
+    "numTotalTests": 11,
+    "timestamp": 1788410184798,
+    "success": true,
+    "testId": 9
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: ciclo 10 - deuce 3-3",
+    "commitTimestamp": 1788410260216,
+    "testId": 9
   }
 ]

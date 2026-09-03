@@ -58,4 +58,14 @@ describe("Aumentar puntos", () => {
     tenis.j2Anota();
     expect(tenis.obtenerScore()).toEqual("Game for player 2");
   });
+  it("Deberia mostrar Deuce cuando ambos jugadores anotan tres puntos", () => {
+    let tenis= new Tenis();
+    tenis.j1Anota();
+    tenis.j1Anota();
+    tenis.j1Anota();
+    tenis.j2Anota();
+    tenis.j2Anota();
+    tenis.j2Anota();
+    expect(tenis.obtenerScore()).toEqual("Deuce");
+  });
 });
